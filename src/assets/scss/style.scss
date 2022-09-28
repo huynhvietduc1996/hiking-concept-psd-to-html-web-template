@@ -1,0 +1,21 @@
+@import "./layouts/main.scss";
+@import "./settings/main.scss";
+* {
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  font-size: 10px;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  // background-color: gray;
+  min-width: 375px;
+}
+
+ul,
+ol {
+  list-style-type: none;
+}

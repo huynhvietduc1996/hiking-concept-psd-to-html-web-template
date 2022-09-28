@@ -1,0 +1,97 @@
+.footer {
+  height: 833px;
+  background-color: #7f7770;
+  background-image: url('../images/sec-7-8-bg.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: 0% -15%;
+  font-family: 'Montserrat', sans-serif;
+
+  .container {
+    display: flex;
+    margin-left: 95px;
+    margin-right: 90px;
+    padding-top: 336px;
+    color: #ffffff;
+    font-weight: lighter;
+    .footer__infor {
+      width: 500px;
+      &-heading {
+        font-size: 3.16rem;
+        font-weight: 400;
+        margin-bottom: 28px;
+        letter-spacing: 1px;
+      }
+
+      &-desc {
+        font-size: 2.37rem;
+        margin-bottom: 38px;
+      }
+
+      &-social {
+        i {
+          text-align: center;
+          padding-top: 5px;
+          font-size: 29px;
+          width: 40px;
+          height: 40px;
+          border-radius: 100px;
+          background-color: #ffffff;
+          color: #7f7770;
+          margin-right: 14px;
+        }
+      }
+    }
+
+    .footer__about {
+      margin-left: 123px;
+      &-heading {
+        font-size: 3.16rem;
+        font-weight: 400;
+        margin-bottom: 20px;
+      }
+
+      &-list {
+        font-size: 2.37rem;
+        line-height: 41px;
+        a {
+          color: #ffffff;
+        }
+      }
+    }
+
+    .footer__services {
+      margin-left: 32px;
+      &-heading {
+        font-size: 3.16rem;
+        font-weight: 400;
+        margin-bottom: 20px;
+      }
+
+      &-list {
+        font-size: 2.37rem;
+        line-height: 41px;
+        a {
+          color: #ffffff;
+        }
+      }
+    }
+
+    .footer__other {
+      margin-left: 38px;
+      &-heading {
+        font-size: 3.16rem;
+        font-weight: 400;
+        margin-bottom: 20px;
+      }
+
+      &-list {
+        line-height: 41px;
+        font-size: 2.37rem;
+        a {
+          color: #ffffff;
+        }
+      }
+    }
+  }
+}

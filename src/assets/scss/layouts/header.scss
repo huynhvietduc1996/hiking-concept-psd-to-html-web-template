@@ -1,0 +1,96 @@
+.header {
+  background-image: url("../images/sec-1-bg-1.png");
+  background-repeat: no-repeat;
+  // background-position: top;
+
+  height: 192px;
+  position: relative;
+  z-index: 999;
+  width: 100%;
+  background-size: contain;
+  .container {
+    max-width: 1275px;
+    width: 100%;
+    margin-left: 75px;
+    margin-right: 90px;
+    padding-top: 30px;
+    display: flex;
+    // align-items: center;
+    justify-content: space-between;
+
+    .header__nav {
+      position: absolute;
+      top: 44px;
+      right: 55px;
+      // transform: translate(-210px, 30px);
+      .header__list {
+        .header__item {
+          display: inline-block;
+          font-weight: bold;
+          font-size: 1.667rem;
+          color: #54524f;
+          text-transform: uppercase;
+
+          a {
+            margin-left: 54px;
+            letter-spacing: 3px;
+          }
+        }
+      }
+
+      .header__search {
+        margin-left: 20px;
+        transform: translateY(6px);
+        input {
+          border: none;
+          outline: none;
+          background: #c3bfbc;
+          font-size: 1.667rem;
+          transform: translate(35px, -9px);
+          padding: 16px 12px;
+          width: 184px;
+          border-radius: 100px;
+        }
+        .fa-search {
+          font-size: 32px;
+          color: #68635f;
+          transform: translate(-32px, -3px);
+        }
+      }
+    }
+  }
+
+  &__hamburger {
+    display: none;
+
+    .header__hamburger__bar {
+      display: block;
+      width: 40px;
+      height: 3px;
+      transition: all 0.3s ease-in-out;
+      background-color: #101010;
+      border-radius: 10px;
+      margin-bottom: 10px;
+    }
+  }
+
+  .header__hamburger.active .header__hamburger__bar:nth-child(2) {
+    opacity: 0;
+  }
+
+  .header__hamburger.active .header__hamburger__bar:nth-child(1) {
+    transform: translateY(10px) rotate(45deg);
+  }
+
+  .header__hamburger.active .header__hamburger__bar:nth-child(3) {
+    transform: translateY(-16px) rotate(-45deg);
+  }
+
+  &__nav-mobile {
+    display: none;
+  }
+
+  &__nav-mobile {
+    display: none;
+  }
+}
